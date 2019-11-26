@@ -1,0 +1,189 @@
+Makefile
+MiniShell
+MiniShell.cpp
+test.txt
+UID         PID   PPID  C STIME TTY          TIME CMD
+root          1      0  0 02:37 ?        00:00:04 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root          2      0  0 02:37 ?        00:00:00 [kthreadd]
+root          3      2  0 02:37 ?        00:00:00 [ksoftirqd/0]
+root          5      2  0 02:37 ?        00:00:00 [kworker/0:0H]
+root          6      2  0 02:37 ?        00:00:00 [kworker/u256:0]
+root          7      2  0 02:37 ?        00:00:00 [migration/0]
+root          8      2  0 02:37 ?        00:00:00 [rcu_bh]
+root          9      2  0 02:37 ?        00:00:01 [rcu_sched]
+root         10      2  0 02:37 ?        00:00:00 [lru-add-drain]
+root         11      2  0 02:37 ?        00:00:00 [watchdog/0]
+root         12      2  0 02:37 ?        00:00:00 [watchdog/1]
+root         13      2  0 02:37 ?        00:00:00 [migration/1]
+root         14      2  0 02:37 ?        00:00:00 [ksoftirqd/1]
+root         16      2  0 02:37 ?        00:00:00 [kworker/1:0H]
+root         17      2  0 02:37 ?        00:00:00 [watchdog/2]
+root         18      2  0 02:37 ?        00:00:00 [migration/2]
+root         19      2  0 02:37 ?        00:00:01 [ksoftirqd/2]
+root         21      2  0 02:37 ?        00:00:00 [kworker/2:0H]
+root         22      2  0 02:37 ?        00:00:00 [watchdog/3]
+root         23      2  0 02:37 ?        00:00:00 [migration/3]
+root         24      2  0 02:37 ?        00:00:00 [ksoftirqd/3]
+root         26      2  0 02:37 ?        00:00:00 [kworker/3:0H]
+root         28      2  0 02:37 ?        00:00:00 [kdevtmpfs]
+root         29      2  0 02:37 ?        00:00:00 [netns]
+root         30      2  0 02:37 ?        00:00:00 [khungtaskd]
+root         31      2  0 02:37 ?        00:00:00 [writeback]
+root         32      2  0 02:37 ?        00:00:00 [kintegrityd]
+root         33      2  0 02:37 ?        00:00:00 [bioset]
+root         34      2  0 02:37 ?        00:00:00 [kblockd]
+root         35      2  0 02:37 ?        00:00:00 [md]
+root         36      2  0 02:37 ?        00:00:00 [edac-poller]
+root         43      2  0 02:37 ?        00:00:00 [kswapd0]
+root         44      2  0 02:37 ?        00:00:00 [ksmd]
+root         45      2  0 02:37 ?        00:00:03 [khugepaged]
+root         46      2  0 02:37 ?        00:00:00 [crypto]
+root         54      2  0 02:37 ?        00:00:00 [kthrotld]
+root         56      2  0 02:37 ?        00:00:00 [kmpath_rdacd]
+root         57      2  0 02:37 ?        00:00:00 [kaluad]
+root         59      2  0 02:37 ?        00:00:00 [kpsmoused]
+root         61      2  0 02:37 ?        00:00:00 [ipv6_addrconf]
+root         74      2  0 02:37 ?        00:00:00 [deferwq]
+root        108      2  0 02:37 ?        00:00:00 [kauditd]
+root        189      2  0 02:37 ?        00:00:00 [kworker/2:2]
+root        252      2  0 02:37 ?        00:00:00 [mpt_poll_0]
+root        253      2  0 02:37 ?        00:00:00 [mpt/0]
+root        254      2  0 02:37 ?        00:00:00 [ata_sff]
+root        255      2  0 02:37 ?        00:00:00 [scsi_eh_0]
+root        257      2  0 02:37 ?        00:00:00 [scsi_tmf_0]
+root        260      2  0 02:37 ?        00:00:00 [scsi_eh_1]
+root        262      2  0 02:37 ?        00:00:00 [scsi_tmf_1]
+root        263      2  0 02:37 ?        00:00:00 [scsi_eh_2]
+root        264      2  0 02:37 ?        00:00:00 [scsi_tmf_2]
+root        266      2  0 02:37 ?        00:00:00 [ttm_swap]
+root        267      2  0 02:37 ?        00:00:00 [irq/16-vmwgfx]
+root        287      2  0 02:37 ?        00:00:00 [kworker/1:1H]
+root        289      2  0 02:37 ?        00:00:00 [kworker/0:1H]
+root        300      2  0 02:37 ?        00:00:00 [bioset]
+root        301      2  0 02:37 ?        00:00:00 [xfsalloc]
+root        302      2  0 02:37 ?        00:00:00 [xfs_mru_cache]
+root        303      2  0 02:37 ?        00:00:00 [xfs-buf/sda3]
+root        304      2  0 02:37 ?        00:00:00 [xfs-data/sda3]
+root        305      2  0 02:37 ?        00:00:00 [xfs-conv/sda3]
+root        306      2  0 02:37 ?        00:00:00 [xfs-cil/sda3]
+root        307      2  0 02:37 ?        00:00:00 [xfs-reclaim/sda]
+root        308      2  0 02:37 ?        00:00:00 [xfs-log/sda3]
+root        309      2  0 02:37 ?        00:00:00 [xfs-eofblocks/s]
+root        310      2  0 02:37 ?        00:00:00 [xfsaild/sda3]
+root        311      2  0 02:37 ?        00:00:00 [kworker/2:1H]
+root        384      1  0 02:37 ?        00:00:01 /usr/lib/systemd/systemd-journald
+root        405      1  0 02:37 ?        00:00:00 /usr/sbin/lvmetad -f
+root        422      1  0 02:37 ?        00:00:01 /usr/lib/systemd/systemd-udevd
+root        443      2  0 02:37 ?        00:00:00 [nfit]
+root        517      2  0 02:37 ?        00:00:00 [xfs-buf/sda1]
+root        518      2  0 02:37 ?        00:00:00 [xfs-data/sda1]
+root        519      2  0 02:37 ?        00:00:00 [xfs-conv/sda1]
+root        520      2  0 02:37 ?        00:00:00 [xfs-cil/sda1]
+root        521      2  0 02:37 ?        00:00:00 [xfs-reclaim/sda]
+root        522      2  0 02:37 ?        00:00:00 [xfs-log/sda1]
+root        523      2  0 02:37 ?        00:00:00 [xfs-eofblocks/s]
+root        524      2  0 02:37 ?        00:00:00 [xfsaild/sda1]
+root        566      2  0 02:37 ?        00:00:00 [rpciod]
+root        567      2  0 02:37 ?        00:00:00 [xprtiod]
+root        569      1  0 02:37 ?        00:00:00 /sbin/auditd
+root        571    569  0 02:37 ?        00:00:00 /sbin/audispd
+root        573    571  0 02:37 ?        00:00:00 /usr/sbin/sedispatch
+root        594      1  0 02:37 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        595      1  0 02:37 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root        599      1  0 02:37 ?        00:00:00 /usr/sbin/ModemManager
+libstor+    601      1  0 02:37 ?        00:00:00 /usr/bin/lsmd -d
+root        602      1  0 02:37 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root        604      1  0 02:37 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root        607      1  0 02:37 ?        00:00:00 /usr/libexec/accounts-daemon
+polkitd     608      1  0 02:37 ?        00:00:01 /usr/lib/polkit-1/polkitd --no-debug
+root        609      1  0 02:37 ?        00:00:00 /usr/bin/VGAuthService -s
+root        610      1  0 02:37 ?        00:00:00 /sbin/rngd -f
+dbus        611      1  0 02:37 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+chrony      618      1  0 02:37 ?        00:00:00 /usr/sbin/chronyd
+root        630      1  0 02:37 ?        00:00:00 /usr/sbin/gssproxy -D
+root        643      1  0 02:37 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root        644      1  0 02:37 ?        00:00:00 /usr/sbin/smartd -n -q never
+root        645      1  0 02:37 ?        00:00:00 /usr/sbin/abrtd -d -s
+root        646      1  0 02:37 ?        00:00:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Kernel panic - not syncing: Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+rtkit       648      1  0 02:37 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        655      1  0 02:37 ?        00:00:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+root        656      1  0 02:37 ?        00:00:06 /usr/bin/vmtoolsd
+avahi       658      1  0 02:37 ?        00:00:00 avahi-daemon: running [linux.local]
+rpc         676      1  0 02:37 ?        00:00:00 /sbin/rpcbind -w
+root        679      1  0 02:37 ?        00:00:00 /bin/bash /usr/sbin/ksmtuned
+avahi       681    658  0 02:37 ?        00:00:00 avahi-daemon: chroot helper
+root        706      2  0 02:37 ?        00:00:00 [kworker/0:3]
+root        744    643  0 02:37 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-ens33.pid -lf /var/lib/NetworkManager/dhclient-c7290dca-d363-4589-817d-4fcf3955379d-ens33.lease -cf /var/lib/NetworkManager/dhclient-ens33.conf ens33
+root        757      2  0 02:37 ?        00:00:00 [kworker/3:1H]
+root        953      1  0 02:37 ?        00:00:00 /usr/sbin/sshd -D
+root        955      1  0 02:37 ?        00:00:01 /usr/bin/python -Es /usr/sbin/tuned -l -P
+root        957      1  0 02:37 ?        00:00:00 /usr/sbin/cupsd -f
+root        965      1  0 02:37 ?        00:00:00 /usr/sbin/rsyslogd -n
+root        968      1  0 02:37 ?        00:00:00 /usr/sbin/libvirtd
+root        975      1  0 02:37 ?        00:00:01 /usr/sbin/crond -n
+root        980      1  0 02:37 ?        00:00:00 /usr/sbin/atd -f
+root        985      1  0 02:37 ?        00:00:00 /usr/sbin/gdm
+root       1238      1  0 02:37 ?        00:00:00 /usr/libexec/postfix/master -w
+postfix    1240   1238  0 02:37 ?        00:00:00 pickup -l -t unix -u
+postfix    1241   1238  0 02:37 ?        00:00:00 qmgr -l -t unix -u
+root       1287    985  0 02:37 tty1     00:00:00 /usr/bin/X :0 -background none -noreset -audit 4 -verbose -auth /run/gdm/auth-for-gdm-8HgTee/database -seat seat0 -nolisten tcp vt1
+root       1491      2  0 02:37 ?        00:00:00 [kworker/2:3]
+root       1521    953  0 02:37 ?        00:00:00 sshd: misaki [priv]
+nobody     1575      1  0 02:37 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root       1576   1575  0 02:37 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root       1600    985  0 02:37 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+misaki     1606   1521  0 02:37 ?        00:00:04 sshd: misaki@pts/0,pts/1
+misaki     1607   1606  0 02:37 pts/0    00:00:00 -bash
+gdm        1618   1600  0 02:37 ?        00:00:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        1658      1  0 02:38 ?        00:00:00 dbus-launch --exit-with-session /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        1661      1  0 02:38 ?        00:00:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+gdm        1669      1  0 02:38 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm        1674   1669  0 02:38 ?        00:00:00 /bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm        1678      1  0 02:38 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+mysql      1697      1  0 02:38 ?        00:00:00 /bin/sh /usr/bin/mysqld_safe --basedir=/usr
+mysql      1893   1697  0 02:38 ?        00:00:04 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --log-error=/var/log/mysqld.log --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/lib/mysql/mysql.sock
+gdm        1894   1618  0 02:38 ?        00:00:08 /usr/bin/gnome-shell
+root       1933      1  0 02:38 ?        00:00:00 /usr/libexec/upowerd
+gdm        1948      1  0 02:38 ?        00:00:02 /usr/bin/pulseaudio --start --log-target=syslog
+gdm        1981      1  0 02:38 ?        00:00:00 /usr/libexec/xdg-permission-store
+gdm        1986   1894  0 02:38 ?        00:00:00 ibus-daemon --xim --panel disable
+gdm        1990   1986  0 02:38 ?        00:00:00 /usr/libexec/ibus-dconf
+gdm        1993      1  0 02:38 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm        1997      1  0 02:38 ?        00:00:00 /usr/libexec/ibus-portal
+root       2012      1  0 02:38 ?        00:00:00 /usr/libexec/packagekitd
+gdm        2016   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-wacom
+root       2018      1  0 02:38 ?        00:00:00 /usr/sbin/wpa_supplicant -u -f /var/log/wpa_supplicant.log -c /etc/wpa_supplicant/wpa_supplicant.conf -P /var/run/wpa_supplicant.pid
+gdm        2020   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-xsettings
+gdm        2026   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-a11y-keyboard
+gdm        2031   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+gdm        2032   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-clipboard
+gdm        2033   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-color
+gdm        2038   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-datetime
+gdm        2041   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-housekeeping
+gdm        2042   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-keyboard
+gdm        2048   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-media-keys
+gdm        2053   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-mouse
+gdm        2054   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-power
+gdm        2062   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-print-notifications
+gdm        2064   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-rfkill
+gdm        2067   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm        2073   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-sharing
+gdm        2079   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-smartcard
+gdm        2084   1618  0 02:38 ?        00:00:00 /usr/libexec/gsd-sound
+colord     2098      1  0 02:38 ?        00:00:00 /usr/libexec/colord
+gdm        2121   1986  0 02:38 ?        00:00:00 /usr/libexec/ibus-engine-simple
+root       2332      2  0 02:50 ?        00:00:01 [kworker/0:1]
+root       2398      2  0 02:57 ?        00:00:00 [kworker/1:0]
+root       2467      1  0 03:01 ?        00:00:00 /usr/sbin/anacron -s
+root       2534      2  0 03:05 ?        00:00:00 [kworker/3:2]
+root       2587      2  0 03:10 ?        00:00:00 [kworker/u256:1]
+root       2678      2  0 03:17 ?        00:00:00 [kworker/3:1]
+root       3366      2  0 03:22 ?        00:00:00 [kworker/3:0]
+root       3388      2  0 03:22 ?        00:00:00 [kworker/1:2]
+misaki     3741   1606  0 03:25 pts/1    00:00:00 -bash
+misaki     3789   3741  0 03:25 pts/1    00:00:00 man open
+misaki     3807   3789  0 03:25 pts/1    00:00:00 less -s
+root       3938      2  0 03:27 ?        00:00:00 [kworker/1:1]
+root       3949    679  0 03:27 ?        00:00:00 sleep 60
+misaki     3951   1607  0 03:27 pts/0    00:00:00 ./MiniShell
+misaki     3952   3951  0 03:28 pts/0    00:00:00 ps -ef
